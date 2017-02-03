@@ -1,0 +1,481 @@
+%-------------------------------------------------------------------------------
+%                      Template Naskah Skripsi
+%               	Berdasarkan format JTETI FT UGM
+% 						(c) @gunturdputra 2014
+%-------------------------------------------------------------------------------
+
+%Template pembuatan naskah skripsi.
+\documentclass{jtetiskripsi}
+
+%Untuk prefiks pada daftar gambar dan tabel
+\usepackage[titles]{tocloft}
+\renewcommand\cftfigpresnum{Gambar\  }
+\renewcommand\cfttabpresnum{Tabel\   }
+
+%Untuk hyperlink dan table of content
+\usepackage{hyperref}
+\newlength{\mylenf}
+\settowidth{\mylenf}{\cftfigpresnum}
+\setlength{\cftfignumwidth}{\dimexpr\mylenf+2em}
+\setlength{\cfttabnumwidth}{\dimexpr\mylenf+2em}
+
+%Untuk Bold Face pada Keterangan Gambar
+\usepackage[labelfont=bf]{caption}
+
+%Untuk caption dan subcaption
+\usepackage{caption}
+\usepackage{subcaption}
+
+%pdf
+\usepackage{pdfpages}
+
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk data proposal skripsi
+%-----------------------------------------------------------------
+\titleind{Pengembangan Aplikasi Kumpulan Resep Masakan Terkoneksi \emph{Food Channel} YouTube Berbasis Android}
+
+\fullname{GREGORIUS ANDITO HERJUNO}
+
+\idnum{3145136218}
+
+\approvaldate{02 Februari 2017}
+
+\degree{Sarjana Ilmu Komputer}
+
+\yearsubmit{2017}
+
+\program{Ilmu Komputer}
+
+\dept{Ilmu Komputer}
+
+\firstsupervisor{Ir. Fariani Hermin I, M.T}
+\firstnip{196002111987032001}
+
+\secondsupervisor{Med Irzal, M.Kom}
+\secondnip{197706152003121001}
+
+%-----------------------------------------------------------------
+%Disini akhir masukan untuk data proposal skripsi
+%-----------------------------------------------------------------
+
+\begin{document}
+
+\cover
+
+\approvalpage
+
+%-----------------------------------------------------------------
+%Disini awal masukan Acknowledment
+%-----------------------------------------------------------------
+\begin{comment}
+\acknowledgment
+\begin{flushright}
+\emph{Untuk Ibu, Bapak,\\dan Adik-adikku tercinta.}
+\end{flushright}
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Prakata
+%-----------------------------------------------------------------
+\preface
+Assalamu'alaikum Wr. Wb.
+
+\vspace{0.5cm}
+
+Puji syukur penulis panjatkan ke hadirat Allah SWT karena hanya dengan rahmat dan hidayah-Nya, Tugas Akhir ini dapat terselesaikan tanpa halangan berarti. Keberhasilan dalam menyusun laporan Tugas Akhir ini tidak lepas dari bantuan berbagai pihak yang mana dengan tulus dan ikhlas memberikan masukan guna sempurnanya Tugas Akhir ini. Oleh karena itu dalam kesempatan ini, dengan kerendahan hati penulis mengucapkan terima kasih kepada:
+
+\begin{enumerate}
+\item{Bapak Sarjiya, S.T., M.T., Ph.D., selaku Ketua Jurusan Teknik Elektro dan Teknologi Informasi Fakultas Teknik Universitas Gadjah Mada,}
+\item{Bapak Sigit Basuki Wibowo, S.T., M.Eng. selaku dosen pembimbing pertama yang telah memberikan banyak bantuan, bimbingan, serta arahan dalam Tugas Akhir ini,}
+\item{Bapak Bimo Sunarfri Hantono, S.T., M.Eng. selaku dosen pembimbing kedua yang juga telah memberikan banyak bantuan, bimbingan, serta arahan dalam Tugas Akhir dan kegiatan-kegiatan yang lain,}
+\item{Bapak Warsun Najib, S.T., M.Sc. selaku dosen pembimbing akademis penulis dan juga dosen pembimbing lapangan penulis pada KKN-PPM UGM 2013 Unit SLM07,}
+\item{Seluruh Dosen di Jurusan Teknik Elektro dan Teknologi Informasi FT UGM, yang tidak bisa disebutkan satu-satu, atas ilmu dan bimbingannya selama penulis berkuliah di JTETI,}
+\item{Ibu dan Bapak yang selama ini telah sabar membimbing, mengarahkan, dan mendoakan penulis tanpa kenal lelah untuk selama-lamanya, dan}
+\item{Cantumkan pihak-pihak lain yang ingin anda berikan ucapan terimakasih.}
+\end{enumerate}
+
+Penulis menyadari bahwa penyusunan Tugas Akhir ini jauh dari sempurna. Kritik dan saran dapat ditujukan langsung pada e-mail atau \emph{mention} langsung pada akun \emph{twitter} saya. Akhir kata penulis mohon maaf yang sebesar-besarnya apabila ada kekeliruan di dalam penulisan Tugas Akhir ini.
+
+\vspace{0.5cm}
+
+Wassalamu'alaikum Wr. Wb.
+
+\begin{tabular}{p{7.5cm}c}
+&Yogyakarta, 15 Januari 2014\\
+&\\
+&\\
+&\textbf{Penulis}
+\end{tabular}
+\end{comment}
+%-----------------------------------------------------------------
+%Disini akhir masukan untuk muka skripsi
+%-----------------------------------------------------------------
+\tableofcontents 
+\addcontentsline{toc}{chapter}{DAFTAR ISI}
+\listoffigures
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+\listoftables
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\begin{comment}
+%-----------------------------------------------------------------
+%Daftar Singkatan [Optional]
+%-----------------------------------------------------------------
+\singkatan
+\noindent
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{A}\\
+AJAX & & Asynchronous JavaScript and XML\\
+AP & & Access Point\\
+API & & Application Programming Interface\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{C}\\
+CLI & & Command Line Interface\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{C}\\
+DFM & & Discovered Full Mesh\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{E}\\
+ERD & & Entity Relationship Diagram\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{F}\\
+FTDI & & Future Technology Devices International\\
+FUSE & & Filesystem in Userspace\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{I}\\
+IP & & Internet Protocol\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{J}\\
+JTETI & & Jurusan Teknik Elektro dan Teknologi Informasi\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{L}\\
+LAN & & Local Area Network\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{O}\\
+OSI & & Open Systems Interconnection\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{R}\\
+RF & & Radio Frequency\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{S}\\
+SDLC & & Software Development Life Cycle\\
+SFTP & & Secure Shell File Transfer Protocol\\
+SSHFS & & Secure Shell Filesystem\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{U}\\
+UGM & & Universitas Gadjah Mada\\
+USB & & Universal Serial Bus\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{V}\\
+VRS & & Virtual Routing Structure\\
+\\
+\end{tabular}
+
+\begin{tabular}{p{20pt}p{3pt}l}
+\textbf{W}\\
+WAP & & Wireless Access Point\\
+WIT & & Western Indonesian Time\\
+WLAN & & Wireless Local Area Network\\
+WSN & & Wireless Sensor Network\\
+\end{tabular}
+
+%-----------------------------------------------------------------
+%Disini awal masukan Intisari
+%-----------------------------------------------------------------
+\begin{abstractind}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+
+\bigskip
+\noindent
+\textbf{Kata kunci :} \emph{wireless sensor network}, \emph{Internet Protocol}, WiFi, interoperabilitas.
+\end{abstractind}
+
+\begin{abstracteng}
+\emph{
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}
+
+\emph{Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.}
+
+\bigskip
+\noindent
+\textbf{\emph{Keywords :}} \emph{wireless sensor network, Internet Protokol, WiFi, interoperability}.
+\end{abstracteng}
+%-----------------------------------------------------------------
+%Disini akhir masukan Intisari
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+\end{comment}
+\begin{counterpage}
+\end{counterpage}
+%Disini awal masukan untuk Bab
+%-----------------------------------------------------------------
+\include{bab1}
+
+\include{bab2}
+
+\include{bab3}
+
+\include{bab4}
+
+\include{bab5}
+%-----------------------------------------------------------------
+%Disini akhir masukan Bab
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+% Disini awal masukan untuk Daftar Pustaka
+% - Daftar pustaka diambil dari file .bib yang ada pada folder ini
+%   juga.
+% - Untuk memudahkan dalam memanajemen dan menggenerate file .bib
+%   gunakan reference manager seperti Mendeley, Zotero, EndNote,
+%   dll.
+%-----------------------------------------------------------------
+%\bibliography{IEEEabrv,daftar-pustaka}
+\begin{thebibliography}{99}
+	\bibitem{anisya}Anisya. 2013. "Aplikasi Sistem Database Rumah Sakit Terpusat pada Rumah Sakit Umum (RSU) Aisyiyah Padang dengan Menerapkan Open Source (PHP - MySQL)". Jurnal Momentum.
+
+	\bibitem{tutorialspoint} Artikel non-personal.  2016. "SDLC - Spiral Model".  Tutorials Point [Online]. Tersedia: \url{https://www.tutorialspoint.com/sdlc/sdlc_spiral_model.htm}. [28 Oktober 2016].
+	
+	\bibitem{bagui}Bagui, Sikha dan Richard Earp. 2011. \textit{Database Design Using Entity-Relationship Diagram}. Florida: CRC Press.	
+	
+	\bibitem{bell} Bell, Donald.  2003. "An Introduction to the Unified Modeling Language".  IBM developerWorks [Online]. Tersedia: \url{http://www.ibm.com/developerworks/rational/library/769.html}. [01 November 2016].
+	
+	\bibitem{burton}Burton, Michael dan Donn Felker. 2012. \textit{Android Application Development For Dummies, 2nd Edition}. New Jersey: John Wiley and Sons, Inc.	
+	
+	\bibitem{denis}Denis, Alan, Barbara Haley Wixom dan David Tegarden. 2010. \textit{Systems Analysis and Design with UML: An Object-Oriented Approach 3rd Edition}. New Jersey: John Wiley and Sons, Inc.
+	
+	\bibitem{edi} Edi, Doro dan Stevalin Betshani. 2009. "Analisis Data dengan Menggunakan ERD dan Model Konseptual Data Warehouse". Jurnal Informatika, Vol.5, No. 1, Juni 2009.
+	
+	\bibitem{francis} Francis, Danny. 2013. "Perancangan Aplikasi Customer Relationship Management: Studi Kasus PT Primacipta Megah Jaya". Thesis Magister pada FASILKOM Universitas Indonesia.
+
+	\bibitem{lee} Lee, Sunguk. 2012. "Unified Modeling Language (UML) for Database Systems and Computer Application". International Journal of Database Theory and Application.
+	
+	\bibitem{murtiwiyati} Murtiwiyati dan Glenn Lauren. 2013. "Rancang Bangun Aplikasi Pembelajaran Budaya Indonesia Untuk Anak Sekolah Dasar Berbasis Android". Jurnal Ilmiah KOMPUTASI, Volume 12 Nomor : 2, Desember 2013.	
+
+	\bibitem{myers} Myers, Brad A dan Jeffrey Stylos. 2016. "Improving API Usability". Communications of the ACM, vol 59, No. 6, June, 2016.		
+	
+	\bibitem{palupi}Palupi, Sri dan Tuti Hera Widi Handayani. 2010. \textit{Resep Masakan (Modul 2)}. Yogyakarta: Universitas Negeri Yogyakarta.	
+	
+	\bibitem{inirani} Pertiwi, Ratih Sukma dan Annelis Brillian.  2015. "Perempuan, Mari Kembali ke Dapur!".  Tabloid Nova [Online]. Tersedia: \url{http://tabloidnova.com/Sedap/Tips-Masak/Perempuan-Mari-Kembali-Ke-Dapur}. [28 April 2016].	
+	
+	\bibitem{pressman}Pressman, Roger S. 2010. \textit{Software Engineering A Practitioner's Approach}. New York: McGraw Hill.	
+		
+	\bibitem{rogers}Rogers, Rick, dkk. 2009. \textit{Android Application Development}. California: O'Reilly Media.	
+	
+	\bibitem{poernomo} Setyanti, Christina Andhika dan Syafrina Syaaf.  2014. "3 Alasan Utama Perempuan Malas Masak".  Kompas.com [Online]. Tersedia: \url{http://female.kompas.com/read/2014/03/06/1254310/3.Alasan.Utama.Perempuan.Malas.Masak}. [28 April 2016].
+	
+	\bibitem{soenardi}Soenardi, Tuti dan Tim. 2013. \textit{Teori Dasar Kuliner}. Jakarta: PT Gramedia Pustaka Utama.	
+		
+	
+\end{thebibliography}
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+%-----------------------------------------------------------------
+%Disini akhir masukan Daftar Pustaka
+%-----------------------------------------------------------------
+\appendix{} 
+\addcontentsline{toc}{chapter}{LAMPIRAN}
+\includepdf[pages=1, scale=0.6, pagecommand={\chapter{Hasil Kuisioner Identifikasi oleh Ahli}}]{pdf/identifikasi_ahli.pdf}
+\includepdf[pages=2-, scale=0.6]{pdf/identifikasi_ahli.pdf}
+
+\includepdf[pages=1, scale=0.6, pagecommand={\chapter{Hasil Kuisioner Identifikasi oleh Awam}}]{pdf/identifikasi_masyarakat.pdf}
+\includepdf[pages=2-, scale=0.6]{pdf/identifikasi_masyarakat.pdf}
+
+
+\chapter{Sampel API Buatan Penulis Bagian Model}
+	\begin{verbatim}
+		function get_resep(){
+			$obj = $this->db->select('*')
+							->get('tb_resep');
+			return $obj->result_array();
+		}
+		
+		function get_list_bahan($id_resep){
+			$obj = $this->db->select('*')
+							->join('tb_list_bahan',
+							'tb_list_bahan.id_bahan = tb_bahan.id_bahan')
+							->join('tb_satuan',
+							'tb_satuan.id_satuan = tb_bahan.id_satuan')
+							->where('id_resep',$id_resep)
+							->get('tb_bahan');
+			return $obj->result_array();
+		}
+		
+		function get_list_cara($id_resep){
+			$obj = $this->db->select('*')
+						->where('id_resep',$id_resep)
+						->get('tb_cara_memasak');
+			return $obj->result_array();
+		}
+		
+		function get_search_bahan($query){
+			$obj = $this->db->select('*')
+							->join('tb_kategori',
+							'tb_kategori.id_cat = tb_resep.id_cat')
+							->join('tb_bahan',
+							'tb_bahan.id_resep = tb_resep.id_resep')
+							->join('tb_list_bahan',
+							'tb_list_bahan.id_bahan = tb_bahan.id_bahan')
+							->like('nama_bahan',$query)
+							->get('tb_resep');
+			return $obj->result_array();
+		}
+		
+	\end{verbatim}	
+\chapter{Sampel API Buatan Penulis Bagian Controller}
+	\begin{verbatim}
+		function get_resep(){
+			$query = $this->Masakyuk_model->get_resep();
+			$response = array();
+			$cek = $query;
+			if($cek > 0){
+				$response["resep"]	=array();
+				foreach ($query as $row) {
+					$data=array();
+					$data["id_resep"]		=	$row["id_resep"];
+					$data["id_cat"]	=	$row["id_cat"];
+					$data["judul"]	=	$row["judul"];
+					$data["gambar"]	=	$row["gambar"];
+					$data["link_youtube"]	=	$row["link_youtube"];
+					$data["rekomendasi"]	=	$row["rekomendasi"];
+					array_push($response["resep"], $data);
+				}
+				$response["success"]	= 1;
+				$response["message"]	= "Semua data resep";
+				echo json_encode($response);
+			} else {
+				$response["success"]	= 0;
+				$response["message"]	= "Data resep tidak ditemukan";
+				echo json_encode($response);
+			}
+		}
+		
+		function get_list_bahan_resep(){
+			if($this->input->post('id_resep')){
+				$id_resep=$this->input->post('id_resep');
+			}
+			$query = $this->Masakyuk_model->get_list_bahan($id_resep);
+			$response = array();
+			$cek = $query;
+			if($cek > 0){
+				$response["bahan"]	=array();
+				foreach ($query as $row) {
+					$data=array();
+					$data["id_resep"]		=	$row["id_resep"];
+					$data["id_bahan_utama"]		=	$row["id_bahan_utama"];
+					$data["banyaknya"]	=	$row["banyaknya"];
+					$data["satuan"]	=	$row["satuan"];
+					$data["nama_bahan"]	=	$row["nama_bahan"];
+					array_push($response["bahan"], $data);
+				}
+				$response["success"]	= 1;
+				$response["message"]	= "Semua data bahan";
+				echo json_encode($response);
+			} else {
+				$response["success"]	= 0;
+				$response["message"]	= "Data bahan tidak ditemukan";
+				echo json_encode($response);
+			}
+		}
+		
+		function get_list_cara_memasak(){
+			if($this->input->post('id_resep')){
+				$id_resep=$this->input->post('id_resep');
+			}
+			$query = $this->Masakyuk_model->get_list_cara($id_resep);
+			$response = array();
+			$cek = $query;
+			if($cek > 0){
+				$response["cara"]	=array();
+				foreach ($query as $row) {
+					$data=array();
+					$data["id_resep"]		=	$row["id_resep"];
+					$data["id_cara_memasak"]		=	$row["id_cara_memasak"];
+					$data["cara"]	=	$row["cara"];
+					array_push($response["cara"], $data);
+				}
+				$response["success"]	= 1;
+				$response["message"]	= "Semua cara memasak resep";
+				echo json_encode($response);
+			} else {
+				$response["success"]	= 0;
+				$response["message"]	= "Data cara memasak tidak ditemukan";
+				echo json_encode($response);
+			}
+		}
+		
+		function get_list_hasil_cari(){
+			\indif($this->input->post('query')){
+				$query=$this->input->post('query');
+			}
+			$query = $this->Masakyuk_model->get_search_bahan($query);
+			$response = array();
+			$cek = $query;
+			if($cek > 0){
+				$response["resep"]	=array();
+				foreach ($query as $row) {
+					$data=array();
+					$data["id_resep"]		=	$row["id_resep"];
+					$data["id_cat"]	=	$row["id_cat"];
+					$data["cat"]	=	$row["cat"];
+					$data["judul"]	=	$row["judul"];
+					$data["gambar"]	=	$row["gambar"];
+					$data["link_youtube"]	=	$row["link_youtube"];
+					$data["rekomendasi"]	=	$row["rekomendasi"];
+					array_push($response["resep"], $data);
+				}
+				$response["success"]	= 1;
+				$response["message"]	= "Semua data resep";
+				echo json_encode($response);
+			} else {
+				$response["success"]	= 0;
+				$response["message"]	= "Data resep tidak ditemukan";
+				echo json_encode($response);
+			}
+		}		
+	\end{verbatim}	
+
+\includepdf[pages=1, scale=0.6, pagecommand={\chapter{Hasil Kuisioner Uji Coba Ahli}}]{pdf/hasil_uji_ahli.pdf}
+\includepdf[pages=2-, scale=0.6]{pdf/hasil_uji_ahli.pdf}
+
+
+\end{document}

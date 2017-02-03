@@ -1,0 +1,17 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: template-skripsi.aux
+The style file: myIEEEtran.bst
+A level-1 auxiliary file: bab1.aux
+A level-1 auxiliary file: bab2.aux
+A level-1 auxiliary file: bab3.aux
+A level-1 auxiliary file: bab4.aux
+A level-1 auxiliary file: bab5.aux
+Database file #1: IEEEabrv.bib
+Database file #2: daftar-pustaka.bib
+Warning--entry type for "anisya" isn't style-file defined
+--line 10 of file daftar-pustaka.bib
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+(There was 1 warning)
