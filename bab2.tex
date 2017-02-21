@@ -41,6 +41,8 @@ Kumpulan resep masakan pada umumnya memuat berbagai macam makanan yang siap untu
 		\label{sdlc_spiral_model}
 	\end{figure}
 
+	Penulis memilih menggunakan model spiral sebagai model dari SDLC dalam proses pengembanga aplikasi kumpulan resep masakan terkoneksi \textit{food channel} YouTube dengan alasan apabila dalam proses pengembangan terdapat kesalahan, baik dalam proses identifikasi, desain, atau pembuata sistem, maka penulis dapat kembali ke tahap dimana ditemukan kesalahan untuk kemudian memperbaiki kesalahan tersebut sehingga proses pegembangan dapat dilaksanakan secara semestinya dan penulis juga tidak melanggar ketentuan yang telah ditetapkan oleh metode pengembangan SDLC karena fleksibilitas dari model spiral itu sendiri.
+
 \section{\emph{Unified Modeling Language} (UML)}
 	\emph{Unified Modeling Language} atau UML adalah sebuah Bahasa pemodelan terstandarisasi dan digunakan untuk berbagai kebutuhan dalam memodelkan pembuatan \emph{software}yang berorientasi pada obyek (\emph{object-oriented}). Standar tersebut dbuat dan dikelola oleh Object Management Group (OMG) pada tahun 1997 dan telah menjadi standar di bidang industri pembuatan \emph{software}. UML meliputi sebuah set dari teknik notasi grafis untuk membuat model dari sebuah sistem perangkat lunak berorientasi obyek secara visual. UML juga merupakan peralatan untuk menspesifikasikan dan memvisualisasikan sebuah sistem pada perangkat lunak. Hal tersebut mencakup tipe diagram yang telah terstandarisasi untuk mendeskripsikan serta memetakan sebuah aplikasi komputer atau desain serta struktur dari sebuah sistem basis data. UML memiliki fungsi untuk mengelola sistem yang besar dan kompleks. Memiliki struktur aplikasi yang jelas dapat membantu \emph{developer} dalam mengenalkan proyek kepada orang-orang baru maupun awam \cite{lee}.
 	
@@ -48,6 +50,8 @@ Kumpulan resep masakan pada umumnya memuat berbagai macam makanan yang siap untu
 	
 	\subsection{\emph{Use Case Diagram}}
 		Fungsionalitas dari sebuah sistem basis data maupun sebuah perangkat lunak komputer dapat diilustrasikan dengan diagram \emph{use case}. Tugas utama dari sebuah \emph{use case} adalah memvisualisasikan kebutuhan fungsionalitas dari sebuah sistem, termasuk hubungan antara aktor (orang yang akan berinteraksi dengan sistem) dengan proses-proses yang esensial dalam sebuah sistem untuk mencapai suatu tujuan. Hal tersebut dapat dikategorikan sebagai kumpulan langkah-langkah yang mendefinisikan interaksi antara aktor dan sistem \cite{bell}.  
+		
+		\vspace{1cm}
 		
 		\textit{Use Case Diagram} terdiri dari beberapa komponen, yakni:
 		\begin{enumerate}
@@ -58,7 +62,6 @@ Kumpulan resep masakan pada umumnya memuat berbagai macam makanan yang siap untu
 				\includegraphics[width=0.05\textwidth]{gambar/use-case/aktor}
 				\caption{Aktor dalam \textit{Use Case}}
 			\end{figure}
-			\vspace{1cm}
 			\item Oval\\ 
 			Bentuk Oval menggambarkan sistem yang dapat berinteraksi dengan aktor. Bentuk Oval tersebut biasanya disertai dengan nama aktivitas sistem di dalamnya yang terletak ditengah-tengah bentuk oval tersebut
 			\begin{figure}[H]
@@ -73,23 +76,26 @@ Kumpulan resep masakan pada umumnya memuat berbagai macam makanan yang siap untu
 				\centering
 				\includegraphics[width=0.8\textwidth]{gambar/use-case/penghubung_aktor_sistem}
 				\caption{Garis Penghubungan antara Aktor dan Sistem}
+				\label{garis_aktor_sistem}
 			\end{figure}
-			Melalui contoh di atas, dapat dilihat bahwa garis yang menyambungkan aktor dengan interaksi sistem menyatakan bahwa Aktor dapat Melihat Resep Masakan
+			Gambar \ref{garis_aktor_sistem} memperlihatkan garis yang menyambungkan aktor dengan interaksi sistem menyatakan bahwa Aktor dapat Melihat Resep Masakan
 			
 			\item Garis Penghubung Antar Sistem\\ 
 			Sistem yang terdapat pada \textit{use case} dapat berinteraksi satu sama lain. Terdapat dua jenis hubungan antar sistem, yakni \textit{include} dan \textit{extend}. Sesuai dengan namanya, \textit{include} menyatakan bahwa sebuah interaksi sistem yang terhubung adalah bagian dari interaksi sistem lainnya
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.8\textwidth]{gambar/use-case/include}
+				\includegraphics[width=1\textwidth]{gambar/use-case/include}
 				\caption{Contoh Hubungan \textit{Include}}
+				\label{hub_include}
 			\end{figure}
-			Contoh diatas menjelaskan bahwa Melihat Video Pembuatan Sebuah Makanan merupakan bagian dari Melihat  Resep Masakan. Sedangkan penghubung \textit{extend} menyatakan bahwa interaksi sebuah sistem merupakan perluasan dari interaksi sistem lainnya
+			Gambar \ref{hub_include} menjelaskan bahwa Melihat Video Pembuatan Sebuah Makanan merupakan bagian dari Melihat  Resep Masakan. Sedangkan penghubung \textit{extend} menyatakan bahwa interaksi sebuah sistem merupakan perluasan dari interaksi sistem lainnya
 			\begin{figure}[H]
 				\centering
-				\includegraphics[width=0.8\textwidth]{gambar/use-case/extends}
+				\includegraphics[width=1\textwidth]{gambar/use-case/extends}
 				\caption{Contoh Hubungan \textit{Extend}}
+				\label{hub_extend}
 			\end{figure}
-			Contoh diatas menjelaskan bahwa Melihat Resep Masakan merupakan perluasan dari Memilih Resep Masakan yang Dilihat. Sebagai contoh, seorang Aktor dapat berinteraksi dengan sebuah sistem berbentuk aplikasi resep masakan. Interaksi yang dimungkinkan oleh sistem adalah Memilih Resep Masakan, Melihat Resep Masakan, dan Melihat Video Pembuatan Sebuah Resep Masakan. \textit{Use Case} dari interaksi tersebut terdapat pada Gambar \ref{use-case-example}.
+			Gambar \ref{hub_extend} menjelaskan bahwa Melihat Resep Masakan merupakan perluasan dari Memilih Resep Masakan yang Dilihat. Sebagai contoh, seorang Aktor dapat berinteraksi dengan sebuah sistem berbentuk aplikasi resep masakan. Interaksi yang dimungkinkan oleh sistem adalah Memilih Resep Masakan, Melihat Resep Masakan, dan Melihat Video Pembuatan Sebuah Resep Masakan. \textit{Use Case} dari interaksi tersebut terdapat pada Gambar \ref{use-case-example}. Gambar tersebut menjelaskan bahwa aktor dapat memilih resep masakan dan kemudian juga melihat resep masakan yang telah dipilih. Melihat resep masakan yang dipilih merupakan ekstensi dari interaksi antara akor denga sistem yaki memilih resep masakan yang dilihat. Kemudian pengguna juga dapat melihat video pembuatan sebuah makanan ketika melihat resep masakan. Hal tersebut dimungkinkan karena interaksi melihat resep masakan memiliki hubungan \textit{include} dengan innteraksi melihat video pembuatan sebuah makanan.
 			\begin{figure}[H]
 				\centering
 				\includegraphics[width=1\textwidth]{gambar/use-case/contoh-use-case}
@@ -155,7 +161,7 @@ Kumpulan resep masakan pada umumnya memuat berbagai macam makanan yang siap untu
 	\end{enumerate}
 		
 \section{\emph{Entity Relationship Diagram} (ERD)}
-	\emph{Entity Relationship Diagram} (ERD) adalah sekumpulan cara atau peralatan untuk mendeskripsikan data-data atau objek-objek yang dibuat berdasarkan dan berasal dari dunia nyata yang disebut entitas (\emph{entity}) serta relasi (\emph{relationship}) antar entitas-entitas tersebut dengan menggunakan beberapa notasi \cite{edi}. Komponen-komponen pembentuk ERD dapat di lihat pada Tabel \ref{tabel_komponen_erd}. 
+	\emph{Entity Relationship Diagram} (ERD) adalah sekumpulan cara atau peralatan untuk mendeskripsikan data-data atau objek-objek yang dibuat berdasarkan dan berasal dari dunia nyata yang disebut entitas (\emph{entity}) serta relasi (\emph{relationship}) antar entitas-entitas tersebut dengan menggunakan beberapa notasi \cite{edi}. Komponen-komponen pembentuk ERD dapat dilihat pada Tabel \ref{tabel_komponen_erd}. 
 	\begin{table}[H]
 		\centering
 		\includegraphics[width=0.8\textwidth]{gambar/erd/erd}

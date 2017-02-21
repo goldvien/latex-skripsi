@@ -1,86 +1,90 @@
 \select@language {bahasa}
 \select@language {bahasa}
+\select@language {english}
+\select@language {bahasa}
 \select@language {bahasa}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Halaman Utama Kompas Recipe\relax }}{5}{figure.caption.5}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Resep Masakan Gratis dari Kompas Recipe\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Halaman Utama Kompas Recipe\relax }}{3}{figure.caption.9}
 \select@language {bahasa}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Empat Tahapan Utama SDLC\relax }}{11}{figure.caption.7}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Model Spiral\relax }}{12}{figure.caption.8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Aktor dalam \textit {Use Case}\relax }}{13}{figure.caption.9}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Sistem dengan Bentuk Oval\relax }}{14}{figure.caption.10}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Garis Penghubungan antara Aktor dan Sistem\relax }}{14}{figure.caption.11}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Contoh Hubungan \textit {Include}\relax }}{15}{figure.caption.12}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Contoh Hubungan \textit {Extend}\relax }}{15}{figure.caption.13}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Contoh \textit {Use Case} dalam Penggunaan Aplikasi Resep Masakan\relax }}{16}{figure.caption.14}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Contoh \textit {Activity Diagram} dalam sistem Point Of Sales (POS)\relax }}{17}{figure.caption.15}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces ERD Studi Kasus Minimarket\relax }}{22}{figure.caption.25}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces \textit {Stack Diagram} Hirarki Aplikasi Android dengan Komponen Lainnya\relax }}{24}{figure.caption.26}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Cara Kerja API\relax }}{27}{figure.caption.27}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Cara Kerja YouTube API\relax }}{28}{figure.caption.28}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Laman Unduh YouTube Player Android API\relax }}{29}{figure.caption.29}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Tampilan \textit {tree} Project\relax }}{29}{figure.caption.30}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Menyalin Berkas YouTube API\relax }}{30}{figure.caption.31}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Menambah Baris Kode\relax }}{30}{figure.caption.32}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces \textit {Sync Now}\relax }}{31}{figure.caption.33}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Menambah Baris Kode pada Activity\relax }}{31}{figure.caption.34}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Inisialisasi YouTubePlayerView\relax }}{31}{figure.caption.35}
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Inisialisasi YouTubePlayerView ke dalam \textit {method} onCreate\relax }}{31}{figure.caption.36}
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Inisialisasi Tampilan YouTube\relax }}{32}{figure.caption.37}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Implementasi \textit {Method} YouTube\relax }}{32}{figure.caption.38}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Inisialisasi Tampilan YouTube\relax }}{32}{figure.caption.39}
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Contoh Karakter Alfanumerik YouTube\relax }}{33}{figure.caption.40}
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Contoh Pengaplikasian Karakter Alfanumerik YouTube\relax }}{33}{figure.caption.41}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Empat Tahapan Utama SDLC\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Model Spiral\relax }}{9}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Aktor dalam \textit {Use Case}\relax }}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Sistem dengan Bentuk Oval\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Garis Penghubungan antara Aktor dan Sistem\relax }}{11}{figure.caption.14}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Contoh Hubungan \textit {Include}\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Contoh Hubungan \textit {Extend}\relax }}{13}{figure.caption.16}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Contoh \textit {Use Case} dalam Penggunaan Aplikasi Resep Masakan\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Contoh \textit {Activity Diagram} dalam sistem Point Of Sales (POS)\relax }}{15}{figure.caption.18}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ERD Studi Kasus Minimarket\relax }}{20}{figure.caption.28}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces \textit {Stack Diagram} Hirarki Aplikasi Android dengan Komponen Lainnya\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Cara Kerja API\relax }}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Cara Kerja YouTube API\relax }}{26}{figure.caption.31}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Laman Unduh YouTube Player Android API\relax }}{27}{figure.caption.32}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Tampilan \textit {tree} Project\relax }}{27}{figure.caption.33}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Menyalin Berkas YouTube API\relax }}{28}{figure.caption.34}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Menambah Baris Kode\relax }}{28}{figure.caption.35}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces \textit {Sync Now}\relax }}{29}{figure.caption.36}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Menambah Baris Kode pada Activity\relax }}{29}{figure.caption.37}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Inisialisasi YouTubePlayerView\relax }}{29}{figure.caption.38}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Inisialisasi YouTubePlayerView ke dalam \textit {method} onCreate\relax }}{29}{figure.caption.39}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Inisialisasi Tampilan YouTube\relax }}{30}{figure.caption.40}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Implementasi \textit {Method} YouTube\relax }}{30}{figure.caption.41}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Inisialisasi Tampilan YouTube\relax }}{30}{figure.caption.42}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Contoh Karakter Alfanumerik YouTube\relax }}{31}{figure.caption.43}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Contoh Pengaplikasian Karakter Alfanumerik YouTube\relax }}{31}{figure.caption.44}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Alur Kerja Aplikasi\relax }}{34}{figure.caption.42}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Pie Chart} Hasil Kuisioner Ahli\relax }}{35}{figure.caption.43}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Pie Chart} Hasil Kuisioner Awam\relax }}{36}{figure.caption.44}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Contoh \emph {Wireframe}\relax }}{39}{figure.caption.45}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Contoh \emph {Mock-Up}\relax }}{39}{figure.caption.46}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces \emph {Class Diagram} Menu Utama\relax }}{43}{figure.caption.49}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces \emph {Class Diagram} Detail Resep\relax }}{44}{figure.caption.50}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces \emph {Class Diagram Wishlist}\relax }}{45}{figure.caption.51}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Halaman Awal\relax }}{47}{figure.caption.53}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Menu Utama\relax }}{48}{figure.caption.54}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Navigasi\relax }}{49}{figure.caption.55}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Menu Utama \textit {Tab} Rekomendasi\relax }}{49}{figure.caption.56}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Menu Utama \textit {Tab} Jenis\relax }}{50}{figure.caption.57}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Detail Resep\relax }}{51}{figure.caption.58}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Keranjang atau \textit {Wishlist}\relax }}{51}{figure.caption.59}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Total Bahan\relax }}{52}{figure.caption.60}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Total Harga\relax }}{52}{figure.caption.61}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Rincian Total Harga\relax }}{53}{figure.caption.62}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Hasil Pencarian\relax }}{53}{figure.caption.63}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Halaman Beri Masukan\relax }}{54}{figure.caption.64}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Halaman Awal atau Halaman Selamat Datang\relax }}{55}{figure.caption.65}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Halaman Utama\relax }}{55}{figure.caption.66}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Menu Navigasi\relax }}{56}{figure.caption.67}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Halaman Utama \textit {Tab} Rekomendasi\relax }}{56}{figure.caption.68}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Halaman Utama \textit {Tab} Jenis\relax }}{57}{figure.caption.69}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Detail Bahan Resep\relax }}{57}{figure.caption.70}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Detail Cara Memasak\relax }}{58}{figure.caption.71}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces \textit {Wishlist}\relax }}{58}{figure.caption.72}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Total Bahan\relax }}{59}{figure.caption.73}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Total Harga\relax }}{59}{figure.caption.74}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Rincian Total Harga\relax }}{60}{figure.caption.75}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces \textit {Tab} Pencarian\relax }}{60}{figure.caption.76}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Laman Beri Masukan atau \textit {Feedback}\relax }}{61}{figure.caption.77}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Basis Data yang Dibuat dengan phpMyAdmin\relax }}{62}{figure.caption.78}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Bagan Alur Kerja MVC\relax }}{63}{figure.caption.79}
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Bagan Alur Kerja CodeIgniter-Based API\relax }}{63}{figure.caption.80}
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Sampel Kode CodeIgniter API-Based yang Dibuat Penulis\relax }}{64}{figure.caption.81}
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Input Data dengan phpMyAdmin\relax }}{65}{figure.caption.82}
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Tampilan List Resep pada Aplikasi Berbasis Web\relax }}{65}{figure.caption.83}
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Tampilan Input Resep pada Aplikasi Berbasis Web\relax }}{66}{figure.caption.84}
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Bagan Alur Kerja CodeIgniter-Based API Hasil Modifikasi\relax }}{66}{figure.caption.85}
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Bagan Alur Kerja Form GET/POST\relax }}{67}{figure.caption.86}
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Bagan Alur Kerja Volley\relax }}{67}{figure.caption.87}
-\contentsline {figure}{\numberline {3.44}{\ignorespaces Bagan Alur Kerja YouTubePlayerView pada sebuah Activity\relax }}{68}{figure.caption.88}
-\contentsline {figure}{\numberline {3.45}{\ignorespaces Bagan Alur Kerja YouTubePlayerFragment pada sebuah Activity\relax }}{69}{figure.caption.89}
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Sampel Kode Implementasi YouTubePlayerFragment pada Metode onCreate sebuah Activity\relax }}{70}{figure.caption.90}
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Alur Penyimpanan pada SQLite dan Pengolahan Total Bahan dan Harga Bahan\relax }}{71}{figure.caption.91}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Alur Kerja Aplikasi\relax }}{32}{figure.caption.45}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {Pie Chart} Hasil Kuisioner Ahli\relax }}{33}{figure.caption.46}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Pie Chart} Hasil Kuisioner Awam\relax }}{34}{figure.caption.47}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Contoh \emph {Wireframe}\relax }}{37}{figure.caption.48}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Contoh \emph {Mock-Up}\relax }}{37}{figure.caption.49}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \emph {Desain ERD Aplikasi yang Dikembangkan Penulis}\relax }}{39}{figure.caption.51}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \emph {Class Diagram} Menu Utama\relax }}{41}{figure.caption.52}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \emph {Class Diagram} Detail Resep\relax }}{42}{figure.caption.53}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \emph {Class Diagram Wishlist}\relax }}{43}{figure.caption.54}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \emph {Activity Diagram dari Aplikasi yang Dibuat Penulis}\relax }}{44}{figure.caption.55}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Halaman Awal\relax }}{45}{figure.caption.56}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Menu Utama\relax }}{46}{figure.caption.57}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Navigasi\relax }}{47}{figure.caption.58}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Menu Utama \textit {Tab} Rekomendasi\relax }}{47}{figure.caption.59}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Menu Utama \textit {Tab} Jenis\relax }}{48}{figure.caption.60}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Detail Resep\relax }}{49}{figure.caption.61}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Keranjang atau \textit {Wishlist}\relax }}{49}{figure.caption.62}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Total Bahan\relax }}{50}{figure.caption.63}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Total Harga\relax }}{50}{figure.caption.64}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Rincian Total Harga\relax }}{51}{figure.caption.65}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Hasil Pencarian\relax }}{51}{figure.caption.66}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Halaman Beri Masukan\relax }}{52}{figure.caption.67}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Halaman Awal atau Halaman Selamat Datang\relax }}{53}{figure.caption.68}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Halaman Utama\relax }}{53}{figure.caption.69}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Menu Navigasi\relax }}{54}{figure.caption.70}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Halaman Utama \textit {Tab} Rekomendasi\relax }}{54}{figure.caption.71}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Halaman Utama \textit {Tab} Jenis\relax }}{55}{figure.caption.72}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Detail Bahan Resep\relax }}{55}{figure.caption.73}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Detail Cara Memasak\relax }}{56}{figure.caption.74}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces \textit {Wishlist}\relax }}{56}{figure.caption.75}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Total Bahan\relax }}{57}{figure.caption.76}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Total Harga\relax }}{57}{figure.caption.77}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Rincian Total Harga\relax }}{58}{figure.caption.78}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces \textit {Tab} Pencarian\relax }}{58}{figure.caption.79}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Laman Beri Masukan atau \textit {Feedback}\relax }}{59}{figure.caption.80}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Basis Data yang Dibuat dengan phpMyAdmin\relax }}{60}{figure.caption.81}
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Bagan Alur Kerja MVC\relax }}{61}{figure.caption.82}
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Bagan Alur Kerja CodeIgniter-Based API\relax }}{61}{figure.caption.83}
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Sampel Kode CodeIgniter API-Based yang Dibuat Penulis\relax }}{62}{figure.caption.84}
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Input Data dengan phpMyAdmin\relax }}{63}{figure.caption.85}
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Tampilan List Resep pada Aplikasi Berbasis Web\relax }}{63}{figure.caption.86}
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Tampilan Input Resep pada Aplikasi Berbasis Web\relax }}{64}{figure.caption.87}
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Bagan Alur Kerja CodeIgniter-Based API Hasil Modifikasi\relax }}{64}{figure.caption.88}
+\contentsline {figure}{\numberline {3.44}{\ignorespaces Bagan Alur Kerja Form GET/POST\relax }}{65}{figure.caption.89}
+\contentsline {figure}{\numberline {3.45}{\ignorespaces Bagan Alur Kerja Volley\relax }}{65}{figure.caption.90}
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Bagan Alur Kerja YouTubePlayerView pada sebuah Activity\relax }}{66}{figure.caption.91}
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Bagan Alur Kerja YouTubePlayerFragment pada sebuah Activity\relax }}{67}{figure.caption.92}
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Sampel Kode Implementasi YouTubePlayerFragment pada Metode onCreate sebuah Activity\relax }}{68}{figure.caption.93}
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Alur Penyimpanan pada SQLite dan Pengolahan Total Bahan dan Harga Bahan\relax }}{69}{figure.caption.94}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ahli yang Berpartisipasi Dalam Proses Identifikasi\relax }}{70}{figure.caption.95}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

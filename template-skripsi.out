@@ -1,57 +1,60 @@
-\BOOKMARK [0][-]{chapter*.1}{HALAMAN PENGESAHAN}{}% 1
-\BOOKMARK [0][-]{chapter*.2}{DAFTAR ISI}{}% 2
-\BOOKMARK [0][-]{chapter*.3}{DAFTAR GAMBAR}{}% 3
-\BOOKMARK [0][-]{chapter*.4}{DAFTAR TABEL}{}% 4
-\BOOKMARK [0][-]{chapter.1}{LATAR BELAKANG}{}% 5
-\BOOKMARK [1][-]{section.1.1}{Latar Belakang Masalah}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.2}{Batasan Masalah}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{Rumusan Masalah}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.4}{Tujuan Penelitian}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.5}{Manfaat Penelitian}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.6}{Jenis Penelitian}{chapter.1}% 11
-\BOOKMARK [0][-]{chapter.2}{KAJIAN TEORI}{}% 12
-\BOOKMARK [1][-]{section.2.1}{Pengembangan Aplikasi Perangkat Lunak}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.2}{Unified Modeling Language \(UML\)}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.1}{Use Case Diagram}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.2}{Class Diagram}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.3}{Activity Diagram}{section.2.2}% 17
-\BOOKMARK [1][-]{section.2.3}{Structured Query Language \(SQL\)}{chapter.2}% 18
-\BOOKMARK [1][-]{section.2.4}{Entity Relationship Diagram \(ERD\)}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.5}{Pengertian Android}{chapter.2}% 20
-\BOOKMARK [1][-]{section.2.6}{Android Studio}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.7}{Application Programming Interface \(API\)}{chapter.2}% 22
-\BOOKMARK [1][-]{section.2.8}{Integrasi YouTube dengan Aplikasi Android}{chapter.2}% 23
-\BOOKMARK [0][-]{chapter.3}{IMPLEMENTASI PROGRAM}{}% 24
-\BOOKMARK [1][-]{section.3.1}{Identifikasi}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.2}{Desain}{chapter.3}% 26
-\BOOKMARK [2][-]{subsection.3.2.1}{Use Case Diagram}{section.3.2}% 27
-\BOOKMARK [2][-]{subsection.3.2.2}{Entity Relationship Diagram}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.3}{Class Diagram}{section.3.2}% 29
-\BOOKMARK [2][-]{subsection.3.2.4}{Activity Diagram}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.5}{Desain Wireframe atau Kerangka Desain}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.6}{Desain Mock-Up atau User Interface}{section.3.2}% 32
-\BOOKMARK [1][-]{section.3.3}{Konstruksi dan Pembangunan}{chapter.3}% 33
-\BOOKMARK [2][-]{subsection.3.3.1}{Membuat Basis Data}{section.3.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.2}{Membuat API untuk Mengakses Basis Data}{section.3.3}% 35
-\BOOKMARK [2][-]{subsection.3.3.3}{Melakukan Input Data ke Basis Data}{section.3.3}% 36
-\BOOKMARK [2][-]{subsection.3.3.4}{Implementasi Desain Aplikasi}{section.3.3}% 37
-\BOOKMARK [2][-]{subsection.3.3.5}{Implementasi Metode Pertukaran Data antara Aplikasi dengan Basis Data}{section.3.3}% 38
-\BOOKMARK [2][-]{subsection.3.3.6}{Mengintegrasikan YouTube dengan Aplikasi Android}{section.3.3}% 39
-\BOOKMARK [2][-]{subsection.3.3.7}{Mengimplementasi Fitur Lainnya}{section.3.3}% 40
-\BOOKMARK [0][-]{chapter.4}{UJI COBA DAN HASIL UJI COBA}{}% 41
-\BOOKMARK [1][-]{section.4.1}{Uji Coba}{chapter.4}% 42
-\BOOKMARK [1][-]{section.4.2}{Hasil Uji Coba Berdasarkan Aspek Penilaian}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.2.1}{Hasil Uji Coba Konten}{section.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.2.2}{Hasil Uji Coba Tampilan}{section.4.2}% 45
-\BOOKMARK [2][-]{subsection.4.2.3}{Hasil Uji Coba Tampilan}{section.4.2}% 46
-\BOOKMARK [1][-]{section.4.3}{Hasil Uji Coba Secara Keseluruhan}{chapter.4}% 47
-\BOOKMARK [0][-]{chapter.5}{KESIMPULAN DAN SARAN}{}% 48
-\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 50
-\BOOKMARK [0][-]{chapter*.95}{DAFTAR PUSTAKA}{}% 51
-\BOOKMARK [0][-]{chapter*.95}{LAMPIRAN}{}% 52
-\BOOKMARK [0][-]{appendix.A}{Hasil Kuisioner Identifikasi oleh Ahli}{}% 53
-\BOOKMARK [0][-]{appendix.B}{Hasil Kuisioner Identifikasi oleh Awam}{}% 54
-\BOOKMARK [0][-]{appendix.C}{Sampel API Buatan Penulis Bagian Model}{}% 55
-\BOOKMARK [0][-]{appendix.D}{Sampel API Buatan Penulis Bagian Controller}{}% 56
-\BOOKMARK [0][-]{appendix.E}{Hasil Kuisioner Uji Coba Ahli}{}% 57
+\BOOKMARK [0][-]{chapter*.2}{HALAMAN PERSEMBAHAN}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{KATA PENGANTAR}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{DAFTAR ISI}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{DAFTAR GAMBAR}{}% 4
+\BOOKMARK [0][-]{chapter*.6}{DAFTAR TABEL}{}% 5
+\BOOKMARK [0][-]{chapter*.7}{ABSTRAK}{}% 6
+\BOOKMARK [0][-]{chapter*.8}{ABSTRACT}{}% 7
+\BOOKMARK [0][-]{chapter.1}{LATAR BELAKANG}{}% 8
+\BOOKMARK [1][-]{section.1.1}{Latar Belakang Masalah}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Batasan Masalah}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.3}{Rumusan Masalah}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.4}{Tujuan Penelitian}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.5}{Manfaat Penelitian}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.6}{Jenis Penelitian}{chapter.1}% 14
+\BOOKMARK [0][-]{chapter.2}{KAJIAN TEORI}{}% 15
+\BOOKMARK [1][-]{section.2.1}{Pengembangan Aplikasi Perangkat Lunak}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.2}{Unified Modeling Language \(UML\)}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Use Case Diagram}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Class Diagram}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Activity Diagram}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{Structured Query Language \(SQL\)}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.4}{Entity Relationship Diagram \(ERD\)}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.5}{Pengertian Android}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.6}{Android Studio}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.7}{Application Programming Interface \(API\)}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.8}{Integrasi YouTube dengan Aplikasi Android}{chapter.2}% 26
+\BOOKMARK [0][-]{chapter.3}{IMPLEMENTASI PROGRAM}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Identifikasi}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Desain}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{Use Case Diagram}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.2}{Entity Relationship Diagram}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.3}{Class Diagram}{section.3.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.4}{Activity Diagram}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.5}{Desain Wireframe atau Kerangka Desain}{section.3.2}% 34
+\BOOKMARK [2][-]{subsection.3.2.6}{Desain Mock-Up atau User Interface}{section.3.2}% 35
+\BOOKMARK [1][-]{section.3.3}{Konstruksi dan Pembangunan}{chapter.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.1}{Membuat Basis Data}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.2}{Membuat API untuk Mengakses Basis Data}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.3}{Melakukan Input Data ke Basis Data}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.4}{Implementasi Desain Aplikasi}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.5}{Implementasi Metode Pertukaran Data antara Aplikasi dengan Basis Data}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.6}{Mengintegrasikan YouTube dengan Aplikasi Android}{section.3.3}% 42
+\BOOKMARK [2][-]{subsection.3.3.7}{Mengimplementasi Fitur Lainnya}{section.3.3}% 43
+\BOOKMARK [0][-]{chapter.4}{UJI COBA DAN HASIL UJI COBA}{}% 44
+\BOOKMARK [1][-]{section.4.1}{Uji Coba}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.2}{Hasil Uji Coba Berdasarkan Aspek Penilaian}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.2.1}{Hasil Uji Coba Konten}{section.4.2}% 47
+\BOOKMARK [2][-]{subsection.4.2.2}{Hasil Uji Coba Tampilan}{section.4.2}% 48
+\BOOKMARK [2][-]{subsection.4.2.3}{Hasil Uji Coba Fungsionalitas}{section.4.2}% 49
+\BOOKMARK [1][-]{section.4.3}{Hasil Uji Coba Secara Keseluruhan}{chapter.4}% 50
+\BOOKMARK [0][-]{chapter.5}{KESIMPULAN DAN SARAN}{}% 51
+\BOOKMARK [1][-]{section.5.1}{Kesimpulan}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.2}{Saran}{chapter.5}% 53
+\BOOKMARK [0][-]{chapter*.99}{DAFTAR PUSTAKA}{}% 54
+\BOOKMARK [0][-]{chapter*.99}{LAMPIRAN}{}% 55
+\BOOKMARK [0][-]{appendix.A}{Kuisioner Identifikasi oleh Ahli}{}% 56
+\BOOKMARK [0][-]{appendix.B}{Kuisioner Identifikasi oleh Awam}{}% 57
+\BOOKMARK [0][-]{appendix.C}{Sampel API Buatan Penulis Bagian Model}{}% 58
+\BOOKMARK [0][-]{appendix.D}{Sampel API Buatan Penulis Bagian Controller}{}% 59
+\BOOKMARK [0][-]{appendix.E}{Instrumen Uji Coba Ahli}{}% 60

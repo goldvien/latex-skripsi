@@ -167,7 +167,7 @@
 \def\listtablename{DAFTAR TABEL}%
 \def\listappendixname{DAFTAR LAMPIRAN}%
 \def\nomenclaturename{DAFTAR SINGKATAN}%
-\def\abstractname{Intisari}%
+\def\abstractname{ABSTRAK}%
 \def\acknowledgmentname{HALAMAN PERSEMBAHAN}%
 \def\approvalname{HALAMAN PENGESAHAN}
 \def\partname{BAGIAN}%
@@ -179,6 +179,7 @@
 \def\figurename{Gambar}%
 \def\tablename{Tabel}%
 \def\pagename{Halaman}%
+\def\thesisapprovalname{LEMBAR PERSETUJUAN HASIL SIDANG SKRIPSI}%
 }
 
 %English
@@ -189,7 +190,7 @@
 \def\listtablename{LIST OF TABLES}%
 \def\listappendixname{LIST OF APPENDICES}%
 \def\nomenclaturename{NOMENCLATURE}%
-\def\abstractname{\emph{Abstract}}%
+\def\abstractname{\emph{ABSTRACT}}%
 \def\partname{PART}%
 \def\chaptername{CHAPTER}%
 \def\appendixname{APPENDIX}%
@@ -250,6 +251,9 @@
       \fontsize{14pt}{16pt}\selectfont\MakeUppercase{\normalfont\bfseries\@titleind}\par\nobreak
       \vspace{1.5cm}
       \MakeUppercase{\normalfont\bfseries Skripsi }\\
+      \vspace{.5cm}
+      Disusun untuk melengkapi syarat-syarat guna memperoleh gelar\\
+      Sarjana Komputer\\
       \vspace{1.0cm}
        \vfill
        \includegraphics[width=0.4\textwidth]{gambar/logounj_bw.png}

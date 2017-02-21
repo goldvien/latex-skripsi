@@ -1,61 +1,66 @@
 \select@language {bahasa}
 \select@language {bahasa}
-\contentsline {chapter}{HALAMAN PENGESAHAN}{iii}{chapter*.1}
-\contentsline {chapter}{DAFTAR ISI}{v}{chapter*.2}
-\contentsline {chapter}{DAFTAR GAMBAR}{ix}{chapter*.3}
-\contentsline {chapter}{DAFTAR TABEL}{x}{chapter*.4}
+\contentsline {chapter}{HALAMAN PERSEMBAHAN}{iii}{chapter*.2}
+\contentsline {chapter}{KATA PENGANTAR}{iv}{chapter*.3}
+\contentsline {chapter}{DAFTAR ISI}{viii}{chapter*.4}
+\contentsline {chapter}{DAFTAR GAMBAR}{xii}{chapter*.5}
+\contentsline {chapter}{DAFTAR TABEL}{xiii}{chapter*.6}
+\contentsline {chapter}{ABSTRAK}{xiv}{chapter*.7}
+\select@language {english}
+\contentsline {chapter}{\emph {ABSTRACT}}{xv}{chapter*.8}
+\select@language {bahasa}
 \select@language {bahasa}
 \contentsline {chapter}{\numberline {I}LATAR BELAKANG}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Latar Belakang Masalah}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Batasan Masalah}{7}{section.1.2}
-\contentsline {section}{\numberline {1.3}Rumusan Masalah}{8}{section.1.3}
-\contentsline {section}{\numberline {1.4}Tujuan Penelitian}{8}{section.1.4}
-\contentsline {section}{\numberline {1.5}Manfaat Penelitian}{8}{section.1.5}
-\contentsline {section}{\numberline {1.6}Jenis Penelitian}{9}{section.1.6}
+\contentsline {section}{\numberline {1.2}Batasan Masalah}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Rumusan Masalah}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Tujuan Penelitian}{5}{section.1.4}
+\contentsline {section}{\numberline {1.5}Manfaat Penelitian}{5}{section.1.5}
+\contentsline {section}{\numberline {1.6}Jenis Penelitian}{6}{section.1.6}
 \select@language {bahasa}
-\contentsline {chapter}{\numberline {II}KAJIAN TEORI}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}Pengembangan Aplikasi Perangkat Lunak}{10}{section.2.1}
-\contentsline {section}{\numberline {2.2}\emph {Unified Modeling Language} (UML)}{12}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}\emph {Use Case Diagram}}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}\emph {Class Diagram}}{16}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}\emph {Activity Diagram}}{17}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}\emph {Structured Query Language} (SQL)}{18}{section.2.3}
-\contentsline {section}{\numberline {2.4}\emph {Entity Relationship Diagram} (ERD)}{19}{section.2.4}
-\contentsline {section}{\numberline {2.5}Pengertian Android}{23}{section.2.5}
-\contentsline {section}{\numberline {2.6}Android Studio}{25}{section.2.6}
-\contentsline {section}{\numberline {2.7}\emph {Application Programming Interface} (API)}{26}{section.2.7}
-\contentsline {section}{\numberline {2.8}Integrasi YouTube dengan Aplikasi Android}{27}{section.2.8}
-\contentsline {chapter}{\numberline {III}IMPLEMENTASI PROGRAM}{34}{chapter.3}
-\contentsline {section}{\numberline {3.1}Identifikasi}{34}{section.3.1}
-\contentsline {section}{\numberline {3.2}Desain}{38}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}\emph {Use Case Diagram}}{40}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}\emph {Entity Relationship Diagram}}{41}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}\emph {Class Diagram}}{43}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}\emph {Activity Diagram}}{46}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Desain \textit {Wireframe} atau Kerangka Desain}{47}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Desain \textit {Mock-Up} atau \textit {User Interface}}{54}{subsection.3.2.6}
-\contentsline {section}{\numberline {3.3}Konstruksi dan Pembangunan}{61}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Membuat Basis Data}{62}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Membuat API untuk Mengakses Basis Data}{62}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Melakukan Input Data ke Basis Data}{64}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Implementasi Desain Aplikasi}{66}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Implementasi Metode Pertukaran Data antara Aplikasi dengan Basis Data}{67}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Mengintegrasikan YouTube dengan Aplikasi Android}{68}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}Mengimplementasi Fitur Lainnya}{70}{subsection.3.3.7}
-\contentsline {chapter}{\numberline {IV}UJI COBA DAN HASIL UJI COBA}{72}{chapter.4}
-\contentsline {section}{\numberline {4.1}Uji Coba}{72}{section.4.1}
-\contentsline {section}{\numberline {4.2}Hasil Uji Coba Berdasarkan Aspek Penilaian}{74}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Hasil Uji Coba Konten}{74}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Hasil Uji Coba Tampilan}{75}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Hasil Uji Coba Tampilan}{76}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Hasil Uji Coba Secara Keseluruhan}{76}{section.4.3}
-\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{78}{chapter.5}
-\contentsline {section}{\numberline {5.1}Kesimpulan}{78}{section.5.1}
-\contentsline {section}{\numberline {5.2}Saran}{79}{section.5.2}
-\contentsline {chapter}{DAFTAR PUSTAKA}{83}{chapter*.95}
-\contentsline {chapter}{LAMPIRAN}{83}{chapter*.95}
-\contentsline {chapter}{\numberline {A}Hasil Kuisioner Identifikasi oleh Ahli}{84}{appendix.A}
-\contentsline {chapter}{\numberline {B}Hasil Kuisioner Identifikasi oleh Awam}{96}{appendix.B}
-\contentsline {chapter}{\numberline {C}Sampel API Buatan Penulis Bagian Model}{123}{appendix.C}
-\contentsline {chapter}{\numberline {D}Sampel API Buatan Penulis Bagian Controller}{125}{appendix.D}
-\contentsline {chapter}{\numberline {E}Hasil Kuisioner Uji Coba Ahli}{130}{appendix.E}
+\contentsline {chapter}{\numberline {II}KAJIAN TEORI}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Pengembangan Aplikasi Perangkat Lunak}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}\emph {Unified Modeling Language} (UML)}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}\emph {Use Case Diagram}}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}\emph {Class Diagram}}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}\emph {Activity Diagram}}{15}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}\emph {Structured Query Language} (SQL)}{16}{section.2.3}
+\contentsline {section}{\numberline {2.4}\emph {Entity Relationship Diagram} (ERD)}{17}{section.2.4}
+\contentsline {section}{\numberline {2.5}Pengertian Android}{21}{section.2.5}
+\contentsline {section}{\numberline {2.6}Android Studio}{23}{section.2.6}
+\contentsline {section}{\numberline {2.7}\emph {Application Programming Interface} (API)}{24}{section.2.7}
+\contentsline {section}{\numberline {2.8}Integrasi YouTube dengan Aplikasi Android}{25}{section.2.8}
+\contentsline {chapter}{\numberline {III}IMPLEMENTASI PROGRAM}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}Identifikasi}{32}{section.3.1}
+\contentsline {section}{\numberline {3.2}Desain}{36}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}\emph {Use Case Diagram}}{38}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}\emph {Entity Relationship Diagram}}{39}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\emph {Class Diagram}}{40}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}\emph {Activity Diagram}}{44}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Desain \textit {Wireframe} atau Kerangka Desain}{45}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Desain \textit {Mock-Up} atau \textit {User Interface}}{52}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}Konstruksi dan Pembangunan}{59}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Membuat Basis Data}{60}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Membuat API untuk Mengakses Basis Data}{60}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Melakukan Input Data ke Basis Data}{62}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Implementasi Desain Aplikasi}{64}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Implementasi Metode Pertukaran Data antara Aplikasi dengan Basis Data}{65}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Mengintegrasikan YouTube dengan Aplikasi Android}{66}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Mengimplementasi Fitur Lainnya}{68}{subsection.3.3.7}
+\contentsline {chapter}{\numberline {IV}UJI COBA DAN HASIL UJI COBA}{70}{chapter.4}
+\contentsline {section}{\numberline {4.1}Uji Coba}{70}{section.4.1}
+\contentsline {section}{\numberline {4.2}Hasil Uji Coba Berdasarkan Aspek Penilaian}{73}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Hasil Uji Coba Konten}{73}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Hasil Uji Coba Tampilan}{74}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Hasil Uji Coba Fungsionalitas}{75}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Hasil Uji Coba Secara Keseluruhan}{75}{section.4.3}
+\contentsline {chapter}{\numberline {V}KESIMPULAN DAN SARAN}{77}{chapter.5}
+\contentsline {section}{\numberline {5.1}Kesimpulan}{77}{section.5.1}
+\contentsline {section}{\numberline {5.2}Saran}{78}{section.5.2}
+\contentsline {chapter}{DAFTAR PUSTAKA}{81}{chapter*.99}
+\contentsline {chapter}{LAMPIRAN}{82}{chapter*.99}
+\contentsline {chapter}{\numberline {A}Kuisioner Identifikasi oleh Ahli}{82}{appendix.A}
+\contentsline {chapter}{\numberline {B}Kuisioner Identifikasi oleh Awam}{84}{appendix.B}
+\contentsline {chapter}{\numberline {C}Sampel API Buatan Penulis Bagian Model}{86}{appendix.C}
+\contentsline {chapter}{\numberline {D}Sampel API Buatan Penulis Bagian Controller}{88}{appendix.D}
+\contentsline {chapter}{\numberline {E}Instrumen Uji Coba Ahli}{93}{appendix.E}

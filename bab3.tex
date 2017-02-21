@@ -57,7 +57,7 @@ Sesuai dengan tahapan-tahapan pengembangan perangkat lunak yang tertera pada SDL
 	Melalui data yang telah terhimpun, penulis memutuskan untuk memilih fitur yang banyak dipilih oleh responden, baik ahli maupun kaum awam, untuk diimplemantasikan pada aplikasi yang akan dibuat oleh penulis, yaitu menampilkan banyak resep masakan sekaligus, menghitung total kebutuhan bahan untuk dua resep atau lebih sekaligus, menyimpan beberapa resep masakan sekaligus kedalam sebuah troli untuk dibuat dalam jangka waktu tertentu, serta menghitung total harga yang dibutuhkan untuk membeli bahan-bahan masakan. Sementara, fitur tambahan yang diinisiasi oleh penulis adalah fitur mencari resep berdasarkan bahan masakan yang akan dibuat.
 	
 \section{Desain}
-	Dalam mengembangkan aplikasi ini, penulis mengembangkan desain aplikasi terlebih dahulu, mulai dari desain \emph{Use Case}, \emph{Entity Relationship Diagram} (ERD), \emph{Class Diagram}, serta \emph{Activity Diagram}. Selain itu, penulis jsgua membuat desain \textit{wireframe} dan \textit{mock-up}. Penulis memutuskan untuk membuat kedua desain tersebut untuk memudahkan pengguna dalam mengeksekusi desain antarmuka dari aplikasi ini. Berdasarkan pengalaman penulis dalam mengikuti program Praktek Kerja Lapangan pada PT Kompas Multimedia Nusantara (Harian Kompas), dimana penulis berperan sebagai \textit{Front-End Developer}, perbedaan dari \textit{wireframe} dan \textit{mock-up} sendiri adalah pada tampilannya. Wireframe mengedepankan \textit{User Experience} dari sebuah laman aplikasi, yaitu alur kerja dari laman aplikasi tersebut. Biasanya tampilan yang disuguhkan oleh \textit{wireframe} tidak terlalu menarik dan hanya terlihat seperti kerangka dari tampilan aplikasi tersebut. 
+	Dalam mengembangkan aplikasi ini, penulis mengembangkan desain aplikasi terlebih dahulu, mulai dari desain \emph{Use Case}, \emph{Entity Relationship Diagram} (ERD), \emph{Class Diagram}, serta \emph{Activity Diagram}. Selain itu, penulis juga membuat desain \textit{wireframe} dan \textit{mock-up}. Penulis memutuskan untuk membuat kedua desain tersebut untuk memudahkan pengguna dalam mengeksekusi desain antarmuka dari aplikasi ini. Berdasarkan pengalaman penulis dalam mengikuti program Praktek Kerja Lapangan pada PT Kompas Media Nusantara (Harian Kompas), dimana penulis berperan sebagai \textit{Front-End Developer}, perbedaan dari \textit{wireframe} dan \textit{mock-up} sendiri adalah pada tampilannya. Wireframe mengedepankan \textit{User Experience} dari sebuah laman aplikasi, yaitu alur kerja dari laman aplikasi tersebut. Biasanya tampilan yang disuguhkan oleh \textit{wireframe} tidak terlalu menarik dan hanya terlihat seperti kerangka dari tampilan aplikasi tersebut. 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[origin=c,width=0.8\textwidth]{gambar/kompas/wireframe}
@@ -81,48 +81,58 @@ Sesuai dengan tahapan-tahapan pengembangan perangkat lunak yang tertera pada SDL
 		\end{figure}
 		\textit{Use Case Diagram} tersebut menunjukkan bagaimana pengguna aplikasi (\textit{user}) berinteraksi dengan aplikasi yang dikembangkan oleh peneliti. Dalam \textit{use case} tersebut dijelaskan bahwa \textit{user} dapat memilih resep masakan yang ingin dilihat pada menu utama untuk kemudian melihat resep masakan sekaligus melihat video cara membuat makanan yang terdapat dalam resep tersebut. Selain itu, \textit{user} juga dapat mencari resep masakan berdasarkan bahan tertentu sesuai dengan keinginan \textit{user}. Setelah dilihat, \textit{user} dapat menyimpan resep masakan tersebut ke dalam Troli, dimana pada aplikasi ini disebut sebagai \textit{Wishlist}. \textit{User} dapat menyimpan sampai 3 resep masakan sekaligus dalam \textit{Wishlist}. Resep yang ada di dalam \textit{wishlist} dapat dihutung total kebutuhan bahannya dan juga dapat menghitung total kebutuhan harga untuk membeli bahan-bahan tersebut.   
 	\subsection{\emph{Entity Relationship Diagram}}
+		ERD pada aplikasi ini berfungsi untuk menyimpan resep, kategori resep, bahan-bahan yang ada  pada resep, cara memasak, serta harga pada tiap-tiap bahan yang tercantum dalam resep. Untuk itu, penulis membuat beberapa tabel untuk menunjang penyimpanan data dari tiap elemen tersebut. 
+		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[angle=90,origin=c,width=0.5\textwidth]{gambar/erd_terbaru}
-			%\caption{\emph{Entity Relationship Diagram}}
-			%\label{erd aplikasi}
+			\includegraphics[width=1.1\textwidth]{gambar/erd_terbaru}
+			\caption{\emph{Desain ERD Aplikasi yang Dikembangkan Penulis}}
+			\label{erd_aplikasi}
+			%angle=90,origin=c
 		\end{figure}
-		ERD pada aplikasi ini berfungsi untuk menyimpan resep, kategori resep, bahan-bahan yang ada  pada resep, cara memasak, serta harga pada tiap-tiap bahan yang tercantum dalam resep. Untuk itu, penulis membuat beberapa tabel untuk menunjang penyimpanan data dari tiap elemen tersebut. Penulis menyediakan tabel resep untuk menyimpan data-data yang berhubungan dengan resep. Kemudian, penulis juga menyediakan tabel bahan untuk menyimpan bahan-bahan yang terdapat pada sebuah resep serta tabel list atau daftar bahan untuk menyimpan data bahan-bahan secara umum yang dijadikan sebagai referensi dari tabel bahan. Penulis juga menyediakan tabel harga dan satuan untuk melengkapi tabel bahan. Tabel satuan dibuat karena adanya kemungkinan sebuah bahan dapat memiliki banyak jenis satuan, sedangkan tabel harga dibuat untuk menghitung harga bahan yang tertera dalam tabel bahan dengan kalkulasi yang berbeda bergantung pada satuannya. Selain itu, penulis juga membuat tabel cara memasak untuk menyimpan cara-cara memasak berdasarkan resep yang ada. Terakhir, penulis membuat tabel kategori untuk mengelompokkan rsep berdasarkan jenisnya yaitu Makanan Pembuka, Makanan Utama, dan Makanan Penutup.
+		
+		Penulis menyediakan tabel resep untuk menyimpan data-data yang berhubungan dengan resep. Kemudian, penulis juga menyediakan tabel bahan untuk menyimpan bahan-bahan yang terdapat pada sebuah resep serta tabel list atau daftar bahan untuk menyimpan data bahan-bahan secara umum yang dijadikan sebagai referensi dari tabel bahan. Penulis juga menyediakan tabel harga dan satuan untuk melengkapi tabel bahan. Tabel satuan dibuat karena adanya kemungkinan sebuah bahan dapat memiliki banyak jenis satuan, sedangkan tabel harga dibuat untuk menghitung harga bahan yang tertera dalam tabel bahan dengan kalkulasi yang berbeda bergantung pada satuannya. Selain itu, penulis juga membuat tabel cara memasak untuk menyimpan cara-cara memasak berdasarkan resep yang ada. Terakhir, penulis membuat tabel kategori untuk mengelompokkan rsep berdasarkan jenisnya yaitu Makanan Pembuka, Makanan Utama, dan Makanan Penutup.
 		
 		Tabel resep berelasi \textit{one-to-many} dengan tabel cara memasak dan tabel bahan karena satu resep dapat memiliki banyak cara memasak dan banyak bahan. Sedangkan tabel kategori berelasi \textit{one-to-many} juga karena satu kategori dapat memiliki banyak resep. Tabel list bahan berelasi \textit{one-to-many} dengan tabel bahan karena bahan yang terdapat pada tabel list bahan dapat dimasukkan lebih dari satu kali pada tabel bahan yang secara langsung menunjang tabel resep. Tabel Satuan berelasi one-to-many dengan tabel harga dan tabel bahan karena tabel harga dapat memiliki banyak satuan serta tabel bahan yang juga sama, yakni dapat memiliki lebih dari satu satuan.   
 	\subsection{\emph{Class Diagram}}
 		Pada pengembangan aplikasi resep masakan ini, penulis memecah \textit{class diagram} menjadi tiga bagian, yaitu \textit{class diagram} menu utama, \textit{class diagram} detail resep, dan \textit{class diagram wishlist}.
+		
+		Terdapat dua model yang diakses pada \textit{class diagram} Menu Utama. Resep Model digunakan untuk menyediakan data resep yang diolah pada \textit{controller} Resep Fragment, Rekomendasi Fragment, dan Jenis Fragment. Bahan Model digunakan untuk menyediakan data resep berdasarkan bahan yang dicari oleh \textit{user}.  \textit{Controller} selanjutnya mengalirkan data yang telah diolah kepada \textit{view} yang terdapat pada masing-masing \textit{controller}. Desain class diagram Mennu Utama dapat dilihat pada Gambar \ref{Class Diagram1}.  
+
 		\begin{figure}[H]
 			\centering
 			\includegraphics[origin=c,width=1\textwidth]{gambar/class/MenuUtama}
 			\caption{\emph{Class Diagram} Menu Utama}
-			%\label{Class Diagram1}
+			\label{Class Diagram1}
 		\end{figure}
-		\vspace{1cm}
-		Terdapat dua model yang diakses pada \textit{class diagram} Menu Utama. Resep Model digunakan untuk menyediakan data resep yang diolah pada \textit{controller} Resep Fragment, Rekomendasi Fragment, dan Jenis Fragment. Bahan Model digunakan untuk menyediakan data resep berdasarkan bahan yang dicari oleh \textit{user}.  \textit{Controller} selanjutnya mengalirkan data yang telah diolah kepada \textit{view} yang terdapat pada masing-masing \textit{controller}.   
+		
+		\textit{Class diagram} Detail Resep, yang terdapat pada Gambar \ref{Class Diagram Detail Resep}, memerlukan dua buah model yaitu Bahan Model dan Cara Model. Kedua model tersebut diperlukan untuk menyediakan data bahan yang dibutuhkan serta cara memasak dalam sebuah resep masakan. Data tersebut kemudian diolah dalam \textit{controller} BahanResepFragment dan CaraResepFragment untuk kemudian dialirkan kepada masing-masing \textit{view}
+		
 		\begin{figure}[H]
 			\centering
 			\includegraphics[origin=c,width=1\textwidth]{gambar/class/DetailResep}
 			\caption{\emph{Class Diagram} Detail Resep}
-			%\label{Class Diagram1}
+			\label{Class Diagram Detail Resep}
 		\end{figure}
-		\textit{Class diagram} Detail Resep memerlukan dua buah model yaitu Bahan Model dan Cara Model. Kedua model tersebut diperlukan untuk menyediakan data bahan yang dibutuhkan serta cara memasak dalam sebuah resep masakan. Data tersebut kemudian diolah dalam \textit{controller} BahanResepFragment dan CaraResepFragment untuk kemudian dialirkan kepada masing-masing \textit{view}
+
+		Wishlist merupakan \textit{class diagram} terakhir yag dibuat oleh penulis. Terdapat dua model yang digunakan dalam \textit{class diagram} ini yakni Bahan Model dan WishList Model. WishList Model digunakan untuk mengalirkan data resep yang telah disimpan oleh pengguna sebelumnya untuk kemudian dilakukan pencocokan data dengan basis data bahan (Bahan Model). Setelah dicocokkan, pengguna atau \textit{user} dapat melakukan perhitungan total bahan yang dibutuhkan serta melakukan perhitungan total harga bahan yang dibutuhkan oleh pengguna beserta dengan daftar harga tiap bahan yang dibutuhkan. Gambar \textit{class diagram wishlist} dapat dilihat pada Gambar \ref{Class wishlist}.
+		
 		\begin{figure}[H]
 			\centering
 			\includegraphics[origin=c,width=0.9\textwidth]{gambar/class/Wishlist}
 			\caption{\emph{Class Diagram Wishlist}}
-			%\label{Class Diagram1}
+			\label{Class wishlist}
 		\end{figure}
-		Wishlist merupakan \textit{class diagram} terakhir yag dibuat oleh penulis. Terdapat dua model yang digunakan dalam \textit{class diagram} ini yakni Bahan Model dan WishList Model. WishList Model digunakan untuk mengalirkan data resep yang telah disimpan oleh pengguna sebelumnya untuk kemudian dilakukan pencocokan data dengan basis data bahan (Bahan Model). Setelah dicocokkan, pengguna atau \textit{user} dapat melakukan perhitungan total bahan yang dibutuhkan serta melakukan perhitungan total harga bahan yang dibutuhkan oleh pengguna beserta dengan daftar harga tiap bahan yang dibutuhkan. 
-		
+
 	\subsection{\emph{Activity Diagram}}
+		Alur kerja aplikasi yang dikembangkan oleh penulis atau peneliti dapat dijelaskan melalui \textit{activity diagram} yang terdapat pada Gambar \ref{Activity Diagram1}
 		\begin{figure}[H]
 			\centering
 			\includegraphics[origin=c,width=1\textwidth]{gambar/activity_diagram_v2}
-			%\caption{\emph{Activity Diagram}}
-			%\label{Activity Diagram1}
+			\caption{\emph{Activity Diagram dari Aplikasi yang Dibuat Penulis}}
+			\label{Activity Diagram1}
 		\end{figure}
-		Alur kerja aplikasi yang dikembangkan oleh penulis atau peneliti dapat dijelaskan melalui \textit{activity diagram}. Pada awal membuka aplikasi, pengguna aplikasi dapat memilih resep atau ingin melihat keranjang atau \textit{wishlist} apabila sudah pernah memasukkan resep ke dalam keranjang sebelumnya. Apabila pengguna ingin meilhat resep, maka pengguna dapat memilih resep dengan cara melihat daftar resep, mencari resep berdasarkan bahan, melihat rekomendasi resep yang disediakan, serta mencari resep berdasarkan jenis makanan (makanan pembuka, makanan utama, dan makanan penutup). Setelah itu, pengguna melihat resep yang telah dipilih serta dapat melihat video pembuatannya juga. Apabila resep disimpan kedalam keranjang, maka pengguna dapat kembali memilih resep atau melihat keranjang langsung untuk menghitung kebutuhan bahan serta total harga kebutuhan bahan. Sedangkan apabila resep masakan yang telah dilihat tidak dimasukkan ke dalam keranjang, maka pengguna dapat memilih resep masakan kembali, melihat keranjang yang sudah diisi sebelumnya, atau dapat keluar dari aplikasi.] 
+		 Pada awal membuka aplikasi, pengguna aplikasi dapat memilih resep atau ingin melihat keranjang atau \textit{wishlist} apabila sudah pernah memasukkan resep ke dalam keranjang sebelumnya. Apabila pengguna ingin meilhat resep, maka pengguna dapat memilih resep dengan cara melihat daftar resep, mencari resep berdasarkan bahan, melihat rekomendasi resep yang disediakan, serta mencari resep berdasarkan jenis makanan (makanan pembuka, makanan utama, dan makanan penutup). Setelah itu, pengguna melihat resep yang telah dipilih serta dapat melihat video pembuatannya juga. Apabila resep disimpan kedalam keranjang, maka pengguna dapat kembali memilih resep atau melihat keranjang langsung untuk menghitung kebutuhan bahan serta total harga kebutuhan bahan. Sedangkan apabila resep masakan yang telah dilihat tidak dimasukkan ke dalam keranjang, maka pengguna dapat memilih resep masakan kembali, melihat keranjang yang sudah diisi sebelumnya, atau dapat keluar dari aplikasi.] 
 	\subsection{Desain \textit{Wireframe} atau Kerangka Desain}
 		\begin{figure}[H]
 			\centering
@@ -365,7 +375,7 @@ Sesuai dengan tahapan-tahapan pengembangan perangkat lunak yang tertera pada SDL
 		\end{figure}
 		Untuk dapat menggunakan Volley, penulis harus terlebih dahulu menambahkan compile 'com.android.volley:volley:1.0.0' pada berkas build.gradle yang terdapat di dalam direktori app.    	
 	\subsection{Mengintegrasikan YouTube dengan Aplikasi Android}
-		 Untuk dapat memainkan video YouTube pada aplikasi Android, maka dibutuhkan YouTube Android Player API sebagai perantara aplikasi dengan basis data YouTube. Penulis melakukan sedikit modifikasi pada implementasi YouTube Android Player API karena penggunaan Fragment pada Resep Activity. Ketika suatu \textit{class} pada Java Android Studio menggunakan Fragment, maka diperlukan \textit{class} yang melakukan ekstensi (\textit{extends}) dengan AppCompatActivity untuk mendukung pengeolaan beberapa Fragment yang akan ditampilkan pada sebuah Activity. Sedangkan YouTube Android Player API mewajibkan penggunanya untuk melakukan ekstensi terhadap \textit{class} YouTubeBaseActivity
+		 Untuk dapat memainkan video YouTube pada aplikasi Android, maka dibutuhkan YouTube Android Player API sebagai perantara aplikasi dengan basis data YouTube. Penulis melakukan sedikit modifikasi pada implementasi YouTube Android Player API karena penggunaan Fragment pada Resep Activity. Ketika suatu \textit{class} pada Java Android Studio menggunakan Fragment, maka diperlukan \textit{class} yang melakukan ekstensi (\textit{extends}) dengan AppCompatActivity untuk mendukung pengelolaan beberapa Fragment yang akan ditampilkan pada sebuah Activity. Sedangkan YouTube Android Player API mewajibkan penggunanya untuk melakukan ekstensi terhadap \textit{class} YouTubeBaseActivity
  		\begin{figure}[H]
 		 	\centering
 		 	\includegraphics[width=1\textwidth]{gambar/new/youtube_player_view}
@@ -398,9 +408,3 @@ Sesuai dengan tahapan-tahapan pengembangan perangkat lunak yang tertera pada SDL
 			\caption{Alur Penyimpanan pada SQLite dan Pengolahan Total Bahan dan Harga Bahan}
 			\label{fitur-lain}
 		\end{figure}
-% Baris ini digunakan untuk membantu dalam melakukan sitasi
-% Karena diapit dengan comment, maka baris ini akan diabaikan
-% oleh compiler LaTeX.
-\begin{comment}
-\bibliography{daftar-pustaka}
-\end{comment}
